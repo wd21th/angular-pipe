@@ -6,6 +6,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   birthday = new Date(1988, 3, 15); // April 15, 1988
+
+
+   localA = 4
+   get a() {
+      return this.localA;
+   }
+   set a(value) {
+      this.localA = value;
+      console.log(`localA is changed to ${value}`);
+   }
+
+click(){
+  console.log("click")
+
+  this.a = 9
+}
+
+
 }
 
 
