@@ -24,6 +24,12 @@ click(){
 }
 
 
+input(){
+  console.log(this.localA)
+
+}
+
+
 }
 
 

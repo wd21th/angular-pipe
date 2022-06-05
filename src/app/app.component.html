@@ -2,6 +2,12 @@
 <h1>Pipes</h1>
 
 <button (click)="click()">set</button>
+<input type="text" [ngModel]="localA" (input)="input()"
+
+
+>
+
+<p ng-bind="localA">BIND</p>
 <!-- <h1>{{1000000 | to_readable_number}} </h1> -->
 <a href="#happy-birthday1">Happy Birthday v1</a><br>
 <a href="#birthday-date-pipe">Birthday DatePipe</a><br>
