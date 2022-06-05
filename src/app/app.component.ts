@@ -26,7 +26,7 @@ click(){
 
 input(){
   console.log(this.localA)
-
+  this.a = this.localA;
 }
 
 
